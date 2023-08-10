@@ -9,7 +9,7 @@ Main reconstruction program.
 **Build_plas_db.py**  
 Builds the plasmid database for Plasmid_recon.
 
-**Download_db.py**  
+**initialize_db.py**  
 Downloads ORI and plasmid databases.
 
 **Performance_test.py**  
