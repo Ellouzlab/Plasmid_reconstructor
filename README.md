@@ -1,5 +1,5 @@
 # Plasmid_reconstructor
-A program to reconstruct plasmids using homology to plasmid clusters.https://github.com/Ellouzlab/Plasmid_reconstructor/blob/main/README.md
+A program to reconstruct plasmids using homology to plasmid clusters.
 
 ## Scripts
 
