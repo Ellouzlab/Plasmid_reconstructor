@@ -18,4 +18,9 @@ Tests performance using a complete genomes
 **utils.py:**
 Functions to help abstract Plasmid_recon.py, Build_plas_db.py, Performance_test.py and download_db.py
 
+## Installation
+
+1. Clone this repository:
+`git clone https://github.com/Ellouzlab/Plasmid_reconstructor`
+
 
