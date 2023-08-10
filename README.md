@@ -1,7 +1,7 @@
 # Plasmid_reconstructor
 A program to reconstruct plasmids using homology to plasmid clusters.
 
-## Scripts
+## Overview
 
 **Plasmid_recon.py**  
 Main reconstruction program.
