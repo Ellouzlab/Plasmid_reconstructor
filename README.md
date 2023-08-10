@@ -22,6 +22,5 @@ Functions to help abstract Plasmid_recon.py, Build_plas_db.py, Performance_test.
 
 1. Clone this repository and enter directory:
       `git clone https://github.com/Ellouzlab/Plasmid_reconstructor`
-      `cd Plasmid_reconstructor`
 
 
