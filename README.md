@@ -1,5 +1,5 @@
 # Plasmid_reconstructor
-A program to reconstruct plasmids using homology to plasmid clusters.
+A program to reconstruct plasmids using homology to plasmid clusters.https://github.com/Ellouzlab/Plasmid_reconstructor/blob/main/README.md
 
 ## Scripts
 
@@ -20,7 +20,7 @@ Functions to help abstract Plasmid_recon.py, Build_plas_db.py, Performance_test.
 
 ## Installation
 
-1. Clone this repository and enter directory:
-         `git clone https://github.com/Ellouzlab/Plasmid_reconstructor`
+1. Clone this repository and enter directory:  
+`git clone https://github.com/Ellouzlab/Plasmid_reconstructor`
 
 
