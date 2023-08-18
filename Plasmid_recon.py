@@ -78,7 +78,7 @@ def write_chrom_fasta(contig_arr, location):
         if not contig[3]:
             record=read_fasta_single(contig[0])
             chromosome_records.append(record)
-    if not len(chromosome_records)==0
+    if not len(chromosome_records)==0:
         SeqIO.write(chromosome_records, location, "fasta")
 
 
