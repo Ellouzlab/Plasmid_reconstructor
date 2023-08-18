@@ -29,7 +29,7 @@ Functions to help abstract Plasmid_recon.py, Build_plas_db.py, Performance_test.
 
 ## Usage    
 1. Begin by downloading the databases using the initialize_db.py script    
-`python initialize_db.py`
+`python initialize_db.py`    
 Note: if you are not searching for Pantoea agglomerans plasmids, you need to provide a chromosome from your species of interest.
 
 
