@@ -13,7 +13,10 @@ Builds the plasmid database for Plasmid_recon.
 Downloads ORI and plasmid databases.
 
 **Performance_test.py**  
-Tests performance using complete genomes
+Tests performance using complete genomes. (Currently under work) 
+
+**genome_frag.py**  
+Randomly fragments genomes for testing.
 
 **utils.py**  
 Functions to help abstract Plasmid_recon.py, Build_plas_db.py, Performance_test.py and download_db.py
