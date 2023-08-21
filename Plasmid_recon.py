@@ -9,8 +9,8 @@ def arguments():
     parser.add_argument('-p', '--plasdb', default="plasmid_db/clust_map", type=str, help="DB containing plasmid fasta")
     parser.add_argument('-c', '--chromdb', default="chromdb/chromdb", type=str, help="DB containing chromosome fasta")
     parser.add_argument('-r', '--repdb', default='rep_db/rep_dna', type=str, help="DB containing ORI fasta")
-    parser.add_argument('-t', '--tempdir', default="tmp", type=str, help="Directory to contain temporary files.")
-    parser.add_argument('-n', '--threads', default=1, type=int, help="Number of threads for blast searches.")
+    parser.add_argument('--tempdir', default="tmp", type=str, help="Directory to contain temporary files.")
+    parser.add_argument('-t', '--threads', default=1, type=int, help="Number of threads for blast searches.")
     parser.add_argument('-o', '--outdir', default="output", type=str, help="output directory")
 
     args = parser.parse_args()
