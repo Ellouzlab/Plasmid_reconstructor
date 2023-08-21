@@ -41,10 +41,10 @@ Note: if you are not searching for Pantoea agglomerans plasmids, you need to pro
 Use the `--chromdb` flags for usage of Plasmid_reconstructor.py
 
 ## Testing Performance
-1. Create artificially fragmented genomes
+1. Create artificially fragmented genomes (all fragments from chromosome will be named chromosome, and plasmid with a number depending on the plasmid they are from).  
 `python genome_frag.py -i Test_dataset -n NUM_FRAGS -o OUTDIR`
 
-2. Run Plasmid_recon.py individually on fragmented genomes and see performance  
+2. Run Plasmid_recon.py individually on fragmented genomes and see performance.
 
 Note: An automated method to assess performance is being developed and will be available soon. 
 
