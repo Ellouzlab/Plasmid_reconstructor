@@ -22,7 +22,6 @@ Randomly fragments genomes for testing.
 Functions to help abstract Plasmid_recon.py, Build_plas_db.py, Performance_test.py and download_db.py
 
 ## Installation
-
 1. Clone this repository and enter directory:    
 `git clone https://github.com/Ellouzlab/Plasmid_reconstructor`    
 `cd Plasmid_reconstructor`
@@ -30,10 +29,25 @@ Functions to help abstract Plasmid_recon.py, Build_plas_db.py, Performance_test.
 `conda env create -f environment.yml -n plas`    
 `conda activate plas`    
 
-## Usage    
+## Usage (_Pantoea agglomerans_ only)    
 1. Begin by downloading the databases using the initialize_db.py script.    
-`python initialize_db.py`    
+`python initialize_db.py -t <your_num_threads>`    
+2. Use Plasmid_recon.py on your fasta file.  
+`python Plasmid_recon.py -i INPUT_FASTA   -o OUTPUT_DIR -t NUM_OF_THREADS (optional) `
 
-Note: if you are not searching for Pantoea agglomerans plasmids, you need to provide a chromosome from your species of interest.
+Note: if you are not searching for Pantoea agglomerans plasmids, you need to provide a chromosome from your species of interest, and run  
+`makeblastdb -dbtype nucl -in your_chromosome_fasta -out your_location`  
 
+Use the `--chromdb` flags for usage of Plasmid_reconstructor.py
 
+## Testing Performance
+1. Create artificially fragmented genomes
+`python genome_frag.py -i Test_dataset -n NUM_FRAGS -o OUTDIR`
+
+2. Run Plasmid_recon.py individually on fragmented genomes and see performance  
+
+Note: An automated method to assess performance is being developed and will be available soon. 
+
+## Options
+To see option available for any program, please run the following:  
+`python Program_name.py -h` 
