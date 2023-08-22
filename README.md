@@ -25,7 +25,7 @@ Functions to help abstract Plasmid_recon.py, Build_plas_db.py, Performance_test.
 1. Clone this repository and enter directory:    
 `cd Plasmid_reconstructor`
 2. Create environment and activate it:    
-`conda env create -f environment.yml -n plas`    
+`conda env create -f environment.yaml -n plas`    
 `conda activate plas`    
 
 ## Usage (_Pantoea agglomerans_ only)    
