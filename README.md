@@ -1,5 +1,7 @@
 # Plasmid_reconstructor
-A program to reconstruct plasmids using homology to plasmid clusters.
+A program to reconstruct plasmids using homology to plasmid clusters. Uses a similar approach as mob suite and uses the same replication database, but a slightly modified plasmid databases (with a few extra Pantoea agglomerans plasmids).
+
+Only available on Linux systems.
 
 ## Overview
 
